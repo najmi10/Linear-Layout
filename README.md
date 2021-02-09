@@ -13,3 +13,11 @@ A. Perbedaan Linear Layout, Relative Layout, dan Constraint Layout
 2.  Relative Layout adalah jenis layout yang memiliki karakteristik dalam menempatkan view secara relatif. Relatif disini berarti posisi dari setiap view bergantung kepada view yang lain. Mudahnya adalah, kita bebas untuk menempatkan objek yang diinginkan sesuka hati kita. Penempatan satu objek bisa dimana saja mau di sisi kanan, kiri, atas, ataupun bawah dari objek lain. Jika tidak di tetapkan, maka objek dapat menumpuk antara satu objek dengan objek yang lain.
 3. Constraint Layout memungkinkan kita membuat tata letak yang besar dan kompleks dengan tampilan datar. Ini hampir mirip dengan Relative Layout karena semua tampilan ditata berdasarkan hubungan antara satu objek dengan yang lain, tetapi lebih fleksibel daripada Relative Layout dan lebih mudah digunakan dengan Editor Layout Android Studio.
 - [x] Jadi Linear Layout bisa mengikuti ukuran layar handphone yang berbeda-beda tanpa merubah susuan objek, Relative Layout hanya akan terlihat sesuai dengan apa yang telah ditetapkan sebelumnya jika ukuran layar berubah bisa saja objek ada yang terpotong atau bahkan tidak terlihat, sedangkan Contraint Layout itu lebih flexible dan mudah untuk dibuat.
+B. Penjelasan Method onCreate dan onPause
+- [x] onCreate Untuk menginisiasi suatu activity, biasanya dipanggil dengan perintah
+setContentCiew(int) untuk resource yang didefinisikan di layout UI, dengan perintah
+findViewById(int) untuk memanggil widget yang dibutuhkan UI untuk berinteraksi dengan
+aplikasi.
+- [x] onPause Untuk menyatakan ketika user meninggalkan suatu activity. Untuk penggunaan
+dengan Context.StartActivity(), semua kelas activity harus sesuai dengan yang dideklarasikan
+dalam suatu paket di AndroidManifest.xml. Activity adalah bagian penting dari model aplikasi.
